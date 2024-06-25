@@ -43,7 +43,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000' // Update with your client's URL for production if needed
+  origin: 'https://stayhealthy-2.onrender.com' // Update with your client's URL for production if needed
 }));
 
 // Routes
